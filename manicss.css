@@ -1,0 +1,179 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+}
+
+/*  ---  BLOCK1  ---  */
+
+.header{
+    height: 60vh;
+    width: 100%;
+    background-image: url("mbg.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 100;
+}
+
+.header ul{
+    display: flex;
+    margin: 0;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    gap: 20px;
+    align-items: center;
+    border-bottom: 2px solid white;
+
+}
+
+.header li a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Playpen sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+
+}
+
+.header li a:hover{
+    color: #e5b80b;
+    transition: all .6s;
+}
+
+.headText{
+    position: absolute;
+    top: 12%;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+.headText h1{
+    font-size: 80px;
+    font-family: 'Monoton', cursive;
+}
+
+.headText h3{
+    font-size: 37px;
+    font-family: 'Satisfy', sans-serif;
+    font-weight: lighter;
+}
+.headText span{
+    color: #ffcb52;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+
+/*Block - 2*/
+
+.about{
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 500px;
+    width: 100%;
+    color: white;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: 2px solid white;
+}
+.about h1{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'titan one', cursive;
+
+}
+.about p{
+    font-size: 20px;
+    text-align: center;
+    opacity: .8;
+    font-family: 'Satisfy', sans-serif;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+/*Block - 3*/
+
+.pro{
+    width: 100%;
+    height: 700px;
+    color: white;
+}
+
+.pro h1{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'titan One', cursive;
+
+}
+
+#projects{
+    display: flex;
+    justify-content: space-evenly;
+    align-content: space-around;
+    position: relative;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    border: 4px double white;
+}
+.card-bottom{
+    width: 700px;
+    height: 100px;
+    background-color: #c8c8c8;
+}
+
+#projects h2{
+    color: #121212;
+    text-align: center;
+    font-family: 'satisfy', sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    opacity: .7;
+}
+
+#projects .card:hover{
+    box-shadow: 0px 0px 30px #e5b80b;
+    cursor: pointer;
+    transform: scale(1.01);
+    transition: all .3s;
+    opacity: 1;
+}
+
+/*Block - 4*/
+
+.footer{
+    border-top: 2px solid white;
+
+    width: 100%;
+    height: 150px;
+    background-image: url("mbg2.png");
+    position: relative;
+}
+
+.footer h1{
+    font-size: 35px;
+    text-align: center;
+    font-family: 'titan One', cursive;
+    color: white;
+}
+
+.footer .cc{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'satisfy', cursive;
+    font-size: 25px;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-bottom: 2px solid #121212;
+}
